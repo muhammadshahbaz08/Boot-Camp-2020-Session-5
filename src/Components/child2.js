@@ -10,6 +10,10 @@ export const Child2 = () => {
       <button onClick={() => dispatch("INCREMENT")}>
         Increment Reducer Counter
       </button>
+      &#160;&#160;&#160;&#160; {/**For Spacing between Buttons*/}
+      <button onClick={() => dispatch("DECREMENT")}>
+        Decrement Reducer Counter
+      </button>
     </div>
   );
 };
